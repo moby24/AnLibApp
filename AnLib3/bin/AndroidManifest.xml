@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anlib2"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:installLocation="preferExternal" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+        
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.anlib2.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fragment_app.AnActivity"
+            >
+        </activity>
+        <activity
+            android:name="com.example.anlib2.AnInfo"
+            android:label="@string/name" >
+        </activity>
+        <activity
+            android:name="videopackage.Video"
+            android:label="@string/video" >
+        </activity>
+        <activity
+            android:name="videopackage.MainVideo"
+            android:label="@string/wifi" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn225"
+            android:label="@string/a1" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn124"
+            android:label="@string/a2" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn70"
+            android:label="@string/a3" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn32"
+            android:label="@string/a4" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn22"
+            android:label="@string/a5" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn12"
+            android:label="@string/a6" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn158"
+            android:label="@string/a7" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn148"
+            android:label="@string/a8" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn140"
+            android:label="@string/a9" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn74"
+            android:label="@string/a10" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn74TK300"
+            android:label="@string/a11" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn38"
+            android:label="@string/a12" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn2"
+            android:label="@string/a13" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn3"
+            android:label="@string/a14" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn14"
+            android:label="@string/a15" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn6"
+            android:label="@string/a16" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn32P"
+            android:label="@string/a17" >
+        </activity>
+        <activity
+            android:name="com.example.gallery.GalleryAn74MP"
+            android:label="@string/a18" >
+        </activity>
+    </application>
+
+</manifest>
