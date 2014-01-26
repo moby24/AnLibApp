@@ -209,9 +209,8 @@ public final class R {
         public static final int fragment6=0x7f030008;
         public static final int gallery=0x7f030009;
         public static final int item_view=0x7f03000a;
-        public static final int start=0x7f03000b;
-        public static final int video=0x7f03000c;
-        public static final int video_activity=0x7f03000d;
+        public static final int video=0x7f03000b;
+        public static final int video_activity=0x7f03000c;
     }
     public static final class menu {
         public static final int main=0x7f090000;
