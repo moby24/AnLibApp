@@ -1,10 +1,10 @@
 package com.moby.videopackage;
-
+/**
+ * Create list with plane youtube vids
+ */
 import java.util.ArrayList;
 import java.util.List;
-
 import com.example.anlib2.R;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,10 +17,6 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-/**
- * Demonstrate how to populate a complex ListView with icon and text. Icon
- * images taken from icon pack by Everaldo Coelho (http://www.everaldo.com)
- */
 public class MainVideo extends Activity {
 	private List<Plane> myPlane = new ArrayList<Plane>();
 	Context context;
@@ -32,29 +28,23 @@ public class MainVideo extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.video_activity);
 		context = this;
-		populateCarList();
+		planeList();
 		populateListView();
 		registerClickCallback();
 
 	}
 
-	private void populateCarList() {
+	private void planeList() {
 		myPlane.add(new Plane(R.drawable.anmriya, "Антонов Ан 225 Мрия"));
-		myPlane.add(new Plane(R.drawable.an140100,
-				"Airliner An-140-100"));
-		myPlane.add(new Plane(R.drawable.an148vid,
-				"Презентация Ан-148"));
-		myPlane.add(new Plane(R.drawable.an148evid,
-				" Самолёт АН-148- Е"));
-		myPlane.add(new Plane(R.drawable.anmodelvid,
-				"Модели самолетов Ан"));
+		myPlane.add(new Plane(R.drawable.an140100, "Airliner An-140-100"));
+		myPlane.add(new Plane(R.drawable.an148vid, "Презентация Ан-148"));
+		myPlane.add(new Plane(R.drawable.an148evid, " Самолёт АН-148- Е"));
+		myPlane.add(new Plane(R.drawable.anmodelvid, "Модели самолетов Ан"));
 		myPlane.add(new Plane(R.drawable.allan, "Самолёты ОКБ Антонова"));
 		myPlane.add(new Plane(R.drawable.an70vid, "Антонов Ан-70 МАКС 2013"));
-		myPlane.add(new Plane(R.drawable.an72vid,
-				"ВВС Россия Антонов Ан-72"));
+		myPlane.add(new Plane(R.drawable.an72vid, "ВВС Россия Антонов Ан-72"));
 		myPlane.add(new Plane(R.drawable.anryslan, "Самолет Ан 124 «Руслан»"));
-		myPlane.add(new Plane(R.drawable.anlading,
-				"Мрия заходит на посадку"));
+		myPlane.add(new Plane(R.drawable.anlading, "Мрия заходит на посадку"));
 
 	}
 
@@ -162,18 +152,18 @@ public class MainVideo extends Activity {
 						parent, false);
 			}
 
-			// Find the car to work with.
-			Plane currentCar = myPlane.get(position);
+			// Find the plane to work with.
+			Plane currentPlane = myPlane.get(position);
 
 			// Fill the view
 			ImageView imageView = (ImageView) itemView
 					.findViewById(R.id.item_icon);
-			imageView.setImageResource(currentCar.getIconID());
+			imageView.setImageResource(currentPlane.getIconID());
 
 			// Condition:
 			TextView condionText = (TextView) itemView
 					.findViewById(R.id.item_txtCondition);
-			condionText.setText(currentCar.getCondition());
+			condionText.setText(currentPlane.getCondition());
 
 			return itemView;
 		}

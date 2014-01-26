@@ -1,13 +1,5 @@
 package com.moby.gallery;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
-import com.example.anlib2.R;
-import com.moby.anlib2.MainActivity;
-import com.moby.gallery.GalleryAn124.ImageAdapter;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -15,13 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
-import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
-import android.widget.AdapterView.OnItemClickListener;
+
+import com.example.anlib2.R;
+import com.moby.anlib.MainActivity;
 
 public class GalleryAn32 extends Activity {
 	private ImageView bigimage;

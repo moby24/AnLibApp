@@ -19,7 +19,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.moby.anlib2.MainActivity"
+            android:name="com.moby.anlib.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,7 +32,7 @@
             >
         </activity>
         <activity
-            android:name="com.moby.anlib2.AnInfo"
+            android:name="com.moby.anlib.AnInfo"
             android:label="@string/name" >
         </activity>
         <activity

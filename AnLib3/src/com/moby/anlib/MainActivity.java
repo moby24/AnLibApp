@@ -1,9 +1,10 @@
-package com.moby.anlib2;
-
+package com.moby.anlib;
+/**
+ * Have activity with 5 button 
+ */
 import com.example.anlib2.R;
 import com.moby.fragment_app.AnActivity;
 import com.moby.videopackage.MainVideo;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.AlertDialog;

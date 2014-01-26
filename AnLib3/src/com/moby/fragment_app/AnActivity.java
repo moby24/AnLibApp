@@ -1,5 +1,7 @@
 package com.moby.fragment_app;
-
+/**
+ * That class organized  group of fragment
+ */
 import com.example.anlib2.R;
 import android.os.Bundle;
 import android.content.Intent;

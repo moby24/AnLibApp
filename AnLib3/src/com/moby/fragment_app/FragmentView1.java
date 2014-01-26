@@ -1,7 +1,9 @@
 package com.moby.fragment_app;
-
+/**
+ * First and next fragment in group
+ */
 import com.example.anlib2.R;
-import com.moby.anlib2.AnInfo;
+import com.moby.anlib.AnInfo;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,7 +1,8 @@
-package com.moby.anlib2;
-
+package com.moby.anlib;
+/**
+ * That class response all info about every plane
+ */
 import android.app.Activity;
-
 import com.example.anlib2.R;
 import com.moby.gallery.GalleryAn12;
 import com.moby.gallery.GalleryAn124;
@@ -21,12 +22,10 @@ import com.moby.gallery.GalleryAn70;
 import com.moby.gallery.GalleryAn74;
 import com.moby.gallery.GalleryAn74MP;
 import com.moby.gallery.GalleryAn74TK300;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Gallery;
 import android.widget.ListView;
 import android.widget.TextView;
 

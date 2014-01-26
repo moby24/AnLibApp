@@ -1,13 +1,7 @@
 package com.moby.gallery;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
 import com.example.anlib2.R;
-import com.moby.anlib2.MainActivity;
-import com.moby.gallery.GalleryAn124.ImageAdapter;
-
+import com.moby.anlib.MainActivity;
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -19,7 +13,6 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Gallery;
 import android.widget.ImageView;
-import android.widget.SimpleExpandableListAdapter;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
