@@ -32,13 +32,13 @@ import android.widget.TextView;
 public class AnInfo extends Activity {
 	ArrayAdapter<String> adapter;
 
+	
 	GalleryAn225.AnInfoMriya ah;
 	GalleryAn124.AnInfoRyslan ar;
 	GalleryAn70.AnInfoRyslan an70;
 	GalleryAn32.AnInfoRyslan an32;
 	GalleryAn22.AnInfoRyslan an22;
 	GalleryAn12.AnInfoRyslan an12;
-
 	GalleryAn158.AnInfoRyslan an158;
 	GalleryAn148.AnInfoRyslan an148;
 	GalleryAn140.AnInfoRyslan an140;
